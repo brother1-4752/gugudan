@@ -1,8 +1,8 @@
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/router'
 
-export default function Detail() {
-  const router = useRouter();
-  const { slug } = router.query;
+export default function Step() {
+  const router = useRouter()
+  const { slug } = router.query
 
-  return <div>HOME{slug}</div>;
+  return <div>HOME{slug}</div>
 }
