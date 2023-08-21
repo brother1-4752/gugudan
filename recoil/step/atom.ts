@@ -6,7 +6,7 @@ export const stepState = atom<StepType>({
   default: 1,
 })
 
-export const reportDataState = atom<ReportDataType>({
+export const reportDataState = atom<ReportDataType[]>({
   key: 'reportData',
-  default: {},
+  default: [{}],
 })
